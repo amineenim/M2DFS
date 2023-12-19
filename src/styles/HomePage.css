@@ -1,0 +1,20 @@
+.students-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding : 10%;
+    align-items: start;
+    max-width: 1200px; /* Set your desired maximum width */
+    margin: 0 auto; /* Center the container */
+    margin-top: 0;
+    padding-top: 40px;
+}
+.students-container h2 {
+    align-self: center;
+}
+.students-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Adjust as needed */
+}
+  
